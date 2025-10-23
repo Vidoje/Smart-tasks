@@ -68,5 +68,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.espresso.core)
 
+    // Room
+    implementation(libs.bundles.room)
+    kapt(libs.androidx.room.compiler)
 
 }
