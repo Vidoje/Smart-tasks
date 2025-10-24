@@ -47,6 +47,9 @@ dependencies {
 
     // Lifecycle (ViewModel, LiveData, SavedState)
     implementation(libs.bundles.lifecycle)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.fragment)
     kapt(libs.androidx.lifecycle.compiler)
 
     // Coroutines
